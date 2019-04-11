@@ -42,5 +42,8 @@
     <ClCompile Include="Sources\Variadic_print.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sources\Y_combinator_ackermann.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

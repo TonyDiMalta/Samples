@@ -5,6 +5,7 @@
 extern void print_type_info_tests();
 extern void print_unique_random_sizes();
 extern void print_any_type_tests();
+extern void print_ackermann_values();
 
 void flush(std::istream& in)
 {
@@ -40,7 +41,8 @@ int main()
     call_functions_with_pause(
         print_type_info_tests,
         print_unique_random_sizes,
-        print_any_type_tests
+        print_any_type_tests,
+        print_ackermann_values
     );
 #endif
 
