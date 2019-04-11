@@ -29,7 +29,7 @@ std::set<int> make_sorted_random(const size_t num_elems, const int min_val, cons
 #ifdef _DEBUG
 void print_unique_random_sizes()
 {
-    std::cout << "Future_async :" << '\n';
+    std::cout << "Future_async :\n";
 
     auto f1 = std::async(std::launch::async, make_sorted_random, 1000000, 0, 1000000);
     auto f2 = std::async(std::launch::async, make_sorted_random, 1000000, 0, 1000000);

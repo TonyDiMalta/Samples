@@ -37,7 +37,7 @@ auto print_type_info(const T& t)
 #ifdef _DEBUG
 void print_type_info_tests()
 {
-    std::cout << "Constexpr_if :" << '\n';
+    std::cout << "Constexpr_if :\n";
     std::cout << print_type_info(5) << '\n';
     std::cout << print_type_info(5ll) << '\n';
     std::cout << print_type_info(1.2) << '\n';

@@ -18,7 +18,7 @@ std::vector<std::string> print(const T& ... t)
 #ifdef _DEBUG
 void print_any_type_tests()
 {
-    std::cout << "Variadic_print :" << '\n';
+    std::cout << "Variadic_print :\n";
 
     const auto to_print = print("Hello", "World", 5.4f, 1, 2.2f);
 
